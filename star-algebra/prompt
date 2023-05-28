@@ -1,0 +1,43 @@
+
+you wrote:
+
+```
+A *-algebra is a type of algebraic structure that
+consists of a complex Banach space (a complete
+normed vector space), along with two operations: 
+
+1. A multiplication operation that is associative
+   and distributive over addition
+
+2. A map * : A → A that is involutionary (a** = a)
+   and antilinear (it reverses the order of
+   multiplication and takes complex conjugates)
+
+Here are the properties:
+
+1. If a and b are elements of the algebra, then so
+   is their product ab.
+
+2. For all a, b, c in the algebra, 
+   (ab)c = a(bc) (associativity)
+
+3. There is an identity element 1 such that 
+   a1 = 1a = a for all a in the algebra
+
+4. For each a in the algebra, there is an element
+   called a* in the algebra, called the adjoint of
+   a.
+
+5. For all a and b in the algebra, (a+b)* = a* + b*
+
+6. For all a and b in the algebra, (ab)* = b*a*
+
+7. For all a in the algebra, (a*)* = a
+
+8. The norm ||a*|| = ||a|| for all a in the algebra.
+
+9. For all a in the algebra, ||a*a|| = ||a||^2
+
+```
+
+I would like to make sure our code properly encapsulates these ideas
